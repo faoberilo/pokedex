@@ -72,7 +72,7 @@ nav ul li{
     padding:1rem;
     background-color: brown;
 }
-section {
+section{
     background-color:white;
     color:black;
     position: fixed;
@@ -86,6 +86,13 @@ section {
     justify-content: space-between;
     width: 100%;
   }
+section p{
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  padding-left: 5px;
+  font-weight: bold;
+}
 
   span#close {
     background-color: white;
@@ -205,11 +212,7 @@ h2 img {
   border-radius: 25%;
    
 }
-p {
-  display: flex;
-  flex-wrap: wrap;
-  width: 400px;
-}
+
 div#detalhes{
   display: flex;
 }
@@ -223,6 +226,9 @@ div#caixa{
 div#caixa li{
   padding: 1rem;
  }
+div#caixa p{
+  width: 400px;
+}
 
   
 
