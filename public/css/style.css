@@ -114,7 +114,7 @@ header {
        
 }
 a{
-    width: 100%;
+    
     text-decoration: none;
     background-color: brown;
     font-size: 1.5rem;
@@ -127,6 +127,7 @@ a{
     cursor: pointer;
     transition: transform 0.5s;
     text-decoration: none;
+    justify-content: center;
  
 
 }
@@ -143,8 +144,8 @@ h2 a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content:space-between;
     padding: 1rem;
-    width: 100%;
     text-decoration: none;
     background-color:transparent;
     font-size: 2rem;
@@ -159,7 +160,7 @@ div {
     font-size: 1.3rem;
     align-items: center;
     list-style: none;
-
+    flex-wrap: wrap;
 }
 input{
     color:brown;
@@ -187,10 +188,16 @@ button {
 card{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+
 }
 
-div 1{
-
+h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+ 
 }
 
 h2 img {
