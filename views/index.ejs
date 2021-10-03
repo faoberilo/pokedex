@@ -34,11 +34,11 @@
                
         <h2><% pokedex.forEach(item => { %>
             <a href="/detalhes/<%= item.index%>">
-            <img src=<%=item.imagem %> width="200" height="200"></img>
+            <img src=<%=item.imagem %> width="300" height="300"></img>
             <li><%= item.nome %></li>
             <li><%= item.tipo %></li></a>
         <% }) %> </h2>
-        </a>
+        
         </div>
 
     
