@@ -195,8 +195,12 @@ card{
 h2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
-  padding-left: 100px;
+  align-items: flex-start;
+  justify-content:space-around;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  
    
 }
 
