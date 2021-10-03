@@ -29,18 +29,18 @@
     <div>
         <h1><%= pokedex[id].nome %> Nº: <%= pokedex[id].numero %></h1>
     </div>
-    <card>
+    <div id="detalhes">
     <div>
         <img src=<%=pokedex[id].imagem %> width="400" height="400"></img>
     </div>
-    <div id="detalhes">    
-        <li width = "300">Descrição: <%= pokedex[id].descricao%></li>
-        <li>Altura: <%= pokedex[id].altura%></li>
-        <li>Categoria: <%= pokedex[id].categoria%></li>
-        <li>Peso: <%= pokedex[id].peso%></li>
-        <li>Habilidade: <%= pokedex[id].habilidade%></li>
-        <li>Tipo: <%= pokedex[id].tipo%></li>
-    </div> </card>
+    <div id="caixa">    
+        <li><p>Descrição:  <%= pokedex[id].descricao%></p></li>
+        <li>Altura: <%=  pokedex[id].altura%></li>
+        <li>Categoria:  <%= pokedex[id].categoria%></li>
+        <li>Peso:  <%= pokedex[id].peso%></li>
+        <li>Habilidade:  <%= pokedex[id].habilidade%></li>
+        <li>Tipo:  <%= pokedex[id].tipo%></li>
+    </div> </div>
     <script src="/js/script.js"></script>
 
 
