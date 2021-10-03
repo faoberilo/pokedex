@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>POKEDÉX</title>
+</head>
+<body>
+    <nav>
+        <article>
+            <img src="/img/icon.png" alt=""></img>
+            <a href="/">Pokedéx</a>
+        </article>
+        
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/cadastro">Cadastro</a></li>
+        </ul>
+    </nav>
+    
+
+    <header>
+        <h1><%= titulo %></h1>
+        
+
+    </header>
+    <div>
+        <h1><%= pokedex[id].nome %> Nº: <%= pokedex[id].numero %></h1>
+    </div>
+    <card>
+    <div>
+        <img src=<%=pokedex[id].imagem %> width="300" height="300"></img>
+    </div>
+    <div id="detalhes">    
+        <li width = "300">Descrição: <%= pokedex[id].descricao%></li>
+        <li>Altura: <%= pokedex[id].altura%></li>
+        <li>Categoria: <%= pokedex[id].categoria%></li>
+        <li>Peso: <%= pokedex[id].peso%></li>
+        <li>Habilidade: <%= pokedex[id].habilidade%></li>
+        <li>Tipo: <%= pokedex[id].tipo%></li>
+    </div> </card>
+    <script src="/js/script.js"></script>
+
+
+</body>
+</html>

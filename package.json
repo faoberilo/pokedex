@@ -1,0 +1,28 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Repositório com os arquivos do projeto 02 do modulo 02 da BlueEd!!!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faoberilo/pokedex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faoberilo/pokedex/issues"
+  },
+  "homepage": "https://github.com/faoberilo/pokedex#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+    
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
