@@ -195,15 +195,15 @@ card{
 h2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  
- 
+  justify-content:center;
+  padding-left: 100px;
+   
 }
 
 h2 img {
   background-color: gray;
   border-radius: 25%;
-  
+   
 }
 
 
